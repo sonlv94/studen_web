@@ -23,10 +23,10 @@ for i in range(100):
 
 left_column, right_column = st.columns(2)
 
-Button = left_column.button('Chọn vào đây đi vợ')
+Button = left_column.button('Chọn vào đây để hiện thị')
 
 if Button:
-	right_column.write('Chúc Vợ yêu Giáng Sinh vui vẽ')
+	right_column.write('Mới vào nghề')
 
 expander1 = st.expander('問い合わせ')
 expander1.write('　　問い合わせ１')
