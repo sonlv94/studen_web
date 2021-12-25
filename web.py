@@ -9,7 +9,7 @@ from streamlit.proto.Button_pb2 import Button
 
 st.title("Streamlit 超入門")
 
-st.write("Interactive Widgeets")
+# st.write("Interactive Widgeets")
 
 'Start!!'
 latest_interation = st.empty()
