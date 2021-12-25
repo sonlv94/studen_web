@@ -18,15 +18,15 @@ bar = st.progress(0)
 for i in range(100):
 	latest_interation.text(f'Interration {i+1}')
 	bar.progress(i+1)
-	time.sleep(0.1)
+	time.sleep(0.01)
 'Done!!'	
 
 left_column, right_column = st.columns(2)
 
-Button = left_column.button('Chúc vợ Cúc Giáng Sinh vui vẽ')
+Button = left_column.button('Chọn vào đây đi vợ')
 
 if Button:
-	right_column.write('ここは右カラム')
+	right_column.write('Chúc Vợ yêu Giáng Sinh vui vẽ')
 
 expander1 = st.expander('問い合わせ')
 expander1.write('　　問い合わせ１')
@@ -58,19 +58,6 @@ expander2.write('　　問い合わせ2')
 # # if st.checkbox('Show Image'):
 # # 	img = Image.open('sample.jpg')
 # # 	st.image(img, caption='le van son', use_column_width=True)
-
-
-
-
-
-
-
-
-
-
-
-
-
 # df = pd.DataFrame(
 # 	np.random.rand(100,2)/[50,50]+[35.59, 139.70],
 # 	columns=['lat','lon']
@@ -80,20 +67,12 @@ expander2.write('　　問い合わせ2')
 # # st.table(df.style.highlight_max(axis=0))
 
 
-
-
-
-
-
-
 # """
 # # 章
 # ## 説
 # ### 項
 
-
 # ``` 
-
 
 # ```
 
